@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xavier's Portfolio</title>
+  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- nav start -->
+  <div class="nav-container">
+    <div class="hoverer">
+      <nav class="my-navbar" id="navbar">
+        <a href="index.html"><div class="navbar-logo"></div></a>
+        <ul class="nav nav-stacked nav-pills">
+          <li class="nav-li">
+            <a href="index.html" class="nav-links">About</a>
+          </li>
+          <li class="nav-li">
+            <a href="portfolio.html" class="nav-links">Portfolio</a>
+          </li>
+          <li class="nav-li">
+            <a href="contact.html" class="nav-links">Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+      <div class="chev-container">
+        <div class="chev-top chev-part"></div>
+        <div class="chev-bottom chev-part"></div>
+      </div>
+    </div>
+  </div>
+  <!-- nav end -->
+
+  <!-- Header start -->
+  <div class="container-fluid header">
+    <div class="col-xs-8 col-xs-offset-2 text-center">
+      <h1 class="header-h1">My Name is Xavier</h1>
+    </div>
+    <div class="col-xs-2 forward-nav">
+      <div class="center alt-nav">
+        <a href="portfolio.html" class="no-deco">Portfolio <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- header end -->
+
+  <!-- content start -->
+  <div class="container">
+    <div class="row content-row"> <!-- Interests/headshot start -->
+      <div class="col-sm-7 col-sm-offset-0 col-xs-11 col-xs-offset-1"> <!-- Interests -->
+        <h1 class="subheader">Who am I?</h1>
+          <blockquote class="with-headshot">
+            <p class="content-text text-justify fancy">I'm a high school student currently, learning about programming while I study towards getting (hopefully) into the medical field. I'm very interested in things like math and science and I'm also a very tech oriented person. Learning about programming has been amazing and I hope to keep growing on what I know and finding ways to apply what I've learned.</p>
+            <img src="img/headshot.JPG" alt="Picture of me" class="headshot img-responsive in-blockquote-img">
+          </blockquote>
+      </div> <!-- Interests end -->
+      <div class="col-sm-5"> <!-- headshot -->
+        <img src="img/headshot.JPG" alt="Picture of me" class=" pull-right headshot img-responsive out-blockquote-img">
+      </div> <!-- headshot end -->
+    </div>   <!-- Interests/headshot end -->
+
+    <div class="row content-row">
+      <h1 class="subheader pull-right">What Can I Do?</h1>
+      <div class="clear"></div>
+      <blockquote class="blockquote-reverse code-skills"> <!-- Skills start -->
+        <div class="row">
+          <p class="pull-right skills-text fancy">The framework that every website is made of, is HTML, it gives things an order and builds up all the content.</p>
+          <p class="pull-right"><strong>HTML</strong></p>
+          <div class="center">
+            <img src="img/html5.png" alt="HTML" class="skills-img html pull-left img-responsive">
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="pull-right skills-text fancy">The visual aspect that gets put over all the HTML comes from CSS, it's the way you make the website have a theme and style everything, it makes the websites look good.</p>
+          <p class="pull-right"><strong>CSS</strong></p>
+          <div class="center">
+            <img src="img/css3.png" alt="CSS" class="skills-img css pull-left img-responsive">
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="pull-right skills-text fancy">Bootstrap is a framework, unlike HTML/CSS it isn't another kind of code, just a pre-written set of code that we can use to help build websites, it helps make things scale better and is incredibly useful.</p>
+          <p class="pull-right"><strong>Bootstrap</strong></p>
+          <div class="center">
+            <img src="img/bootstrap.png" alt="Bootstrap" class="skills-img bootstrap pull-left img-responsive">
+          </div>
+        </div>
+      </blockquote>
+    </div>
+  </div>
+  <!-- content end -->
+
+  <!-- footer -->
+  <div class="container-fluid footer-container">
+    <div class="row footer">
+      <div class="col-xs-4 footer-logo"> <!-- Logo -->
+        <div class="center footer-center">
+          <img src="img/logo.png" alt="logo" class="img-responsive">
+        </div>
+      </div> <!-- End logo -->
+      <div class="col-xs-4"> <!-- links to work sources -->
+        <div class="row footer-work footer-github">
+          <div class="double-link">
+            <a href="https://github.com/xypage" target="_blank" class="no-deco pull-left">
+              <p class="white-text text-center">
+                <i class="fa fa-github white-text" aria-hidden="true"></i>
+                <br>GitHub
+              </p>
+            </a>
+            <a href="https://slack.com/" target="_blank" class="no-deco pull-right">
+              <p class="white-text text-center">
+                <i class="fa fa-slack white-text" aria-hidden="true"></i>
+                <br>Slack
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row footer-work footer-codepen">
+          <a href="https://codepen.io/xypage/" target="_blank" class="no-deco">
+            <p class="white-text text-center margin-bottom">
+              CodePen<br>
+              <i class="white-text fa fa-codepen" aria-hidden="true"></i>
+            </p>
+          </a>
+        </div>
+      </div> <!-- end links to work -->
+      <div class="col-xs-4"> <!-- copyright -->
+        <div class="center footer-center">
+          <p class="copyright">Ⓒ 2017 Xavier Colin Ybarra.<br>All rights reserved. | Site by: Xavier Ybarra</p>
+        </div>
+      </div> <!-- copyright end -->
+    </div>
+  </div>
+  <!-- footer end -->
+
+  <!-- javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xavier's Portfolio</title>
+  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- nav start -->
+  <div class="nav-container">
+    <div class="hoverer">
+      <nav class="my-navbar" id="navbar">
+        <a href="index.html"><div class="navbar-logo"></div></a>
+        <ul class="nav nav-stacked nav-pills">
+          <li class="nav-li">
+            <a href="index.html" class="nav-links">About</a>
+          </li>
+          <li class="nav-li">
+            <a href="portfolio.html" class="nav-links">Portfolio</a>
+          </li>
+          <li class="nav-li">
+            <a href="contact.html" class="nav-links">Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+      <div class="chev-container">
+        <div class="chev-top chev-part"></div>
+        <div class="chev-bottom chev-part"></div>
+      </div>
+    </div>
+  </div>
+  <!-- nav end -->
+
+  <!-- header start -->
+  <div class="container-fluid header">
+    <div class="col-xs-2 backwards-nav">
+      <div class="center alt-nav">
+        <a href="portfolio.html" class="no-deco"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Portfolio</a>
+      </div>
+    </div>
+    <div class="col-xs-8 text-center">
+      <h1 class="header-h1">Contact Me</h1>
+    </div>
+  </div>
+  <!-- header end -->
+
+  <!-- info map thubnail/blockquote and form -->
+  <div class="container">
+    <div class="row content-row">
+      <div class="col-sm-6"> <!-- Contact info start -->
+        <h1 class="subheader pull-left">Get in Touch</h1>
+        <div class="clear"></div>
+        <blockquote>
+          <dl class="dl-horizontal">
+            <dt>Email:</dt>
+            <dd>xybarra@comcast.net</dd>
+            <dt>Phone #:</dt>
+            <dd>(012)345-6789</dd>
+            <dt>Work Address:</dt>
+            <dd>700 Van Ness Ave, Fresno, CA 93721</dd>
+            <dt>School:</dt>
+            <dd>Sunnyside High School</dd>
+          </dl>
+        </blockquote>
+      </div> <!-- Contact info end -->
+      <div class="col-sm-6"> <!-- map start -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.57179672478!2d-119.71923528518069!3d36.73284397996253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945f21b218e97b%3A0x203cf057a24dec1c!2sSunnyside+High+School!5e0!3m2!1sen!2sus!4v1501780591523" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div> <!-- map end -->
+    </div>
+
+    <div class="row content-row">
+      <div class="col-sm-5">
+        <a href="http://bitwiseindustries.com/" class="thumbnail">
+          <img src="img/bitwise.png" alt=Bitwise"">
+        </a>
+      </div>
+      <div class="col-sm-7">
+        <blockquote class="blockquote-reverse">
+          <p class="text-justify fancy">Bitwise Industries is where I learned and where you'll want to go if you're looking to find tons of people skilled in programming and design. I learned there and if you need front-end or back-end, that's the contact you really need.</p>
+        </blockquote>
+      </div>
+    </div>
+
+
+    <div class="row content-row"> <!-- Contact form -->
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="inputName" class="white-text">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="white-text">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="your.email@example.com">
+        </div>
+        <div class="form-group">
+					<label for="textArea" class="white-text">Message:</label>
+					<textarea required="" class="form-control" rows="1"></textarea>
+				</div>
+        <div class="form-group send-message">
+          <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+      </form>
+    </div> <!-- contact form end -->
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid footer-container">
+    <div class="row footer">
+      <div class="col-xs-4 footer-logo"> <!-- Logo -->
+        <div class="center footer-center">
+          <img src="img/logo.png" alt="logo" class="img-responsive">
+        </div>
+      </div> <!-- End logo -->
+      <div class="col-xs-4"> <!-- links to work sources -->
+        <div class="row footer-work footer-github">
+          <div class="double-link">
+            <a href="https://github.com/xypage" target="_blank" class="no-deco pull-left">
+              <p class="white-text text-center">
+                <i class="fa fa-github white-text" aria-hidden="true"></i>
+                <br>GitHub
+              </p>
+            </a>
+            <a href="https://slack.com/" target="_blank" class="no-deco pull-right">
+              <p class="white-text text-center">
+                <i class="fa fa-slack white-text" aria-hidden="true"></i>
+                <br>Slack
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row footer-work footer-codepen">
+          <a href="https://codepen.io/xypage/" target="_blank" class="no-deco">
+            <p class="white-text text-center margin-bottom">
+              CodePen<br>
+              <i class="white-text fa fa-codepen" aria-hidden="true"></i>
+            </p>
+          </a>
+        </div>
+      </div> <!-- end links to work -->
+      <div class="col-xs-4"> <!-- copyright -->
+        <div class="center footer-center">
+          <p class="copyright">Ⓒ 2017 Xavier Colin Ybarra.<br>All rights reserved. | Site by: Xavier Ybarra</p>
+        </div>
+      </div> <!-- copyright end -->
+    </div>
+  </div>
+  <!-- footer end -->
+
+  <!-- javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
